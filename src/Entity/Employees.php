@@ -31,9 +31,16 @@ class Employees
     /**
      * @var string
      *
-     * @ORM\Column(name="nom_prenom", type="string", length=255, nullable=false)
+     * @ORM\Column(name="nom", type="string", length=255, nullable=false)
      */
-    private $nomPrenom;
+    private $nom;
+
+    /**
+     * @var string
+     *
+     * @ORM\Column(name="prenom", type="string", length=255, nullable=false)
+     */
+    private $prenom;
 
     /**
      * @var string
